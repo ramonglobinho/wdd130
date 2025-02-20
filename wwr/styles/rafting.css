@@ -142,7 +142,6 @@ header{
     display: flex;
     justify-content:space-between;
 
-
 }
 
 footer{
@@ -167,3 +166,77 @@ footer img{
     width: 50px;
     margin: 0 5px;
 }
+
+.adventure h3{
+    color: #a0b2a6;
+
+}
+
+.contact{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.information{
+    grid-column: 1;
+    grid-row: 1;
+
+}
+.phone{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.email{
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.adventure iframe{
+    margin: 0 auto;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
