@@ -229,7 +229,7 @@ form {
   }
 
   button {
-    background-color: #4CAF50;
+    background-color: var(--heading2-background-color);
     color: white;
     padding: 10px 20px;
     border: none;
@@ -238,5 +238,52 @@ form {
   }
 
   button:hover {
-    background-color: #45a049;
+    background-color: var(--heading-text-color);
   }
+
+  .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--heading2-background-color);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: var(--heading-text-color);
+}
+
+.cta-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.cta-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.trip{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.trip .content p{
+    font-size: 16px;
+    line-height: 1.6;  
+
+}
+
+h3{
+    columns: #2e2e2e;
+}
